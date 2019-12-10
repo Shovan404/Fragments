@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".fragments.SecondFragment">
 
-    <Button
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/etCircle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnFragment"
-        android:textSize="34sp"
-        android:text="Load first fragment"/>
+        android:hint="calculate area of circle"
+        android:textSize="34sp"/>
 
-    <LinearLayout
+    <Button
+        android:id="@+id/btnCircle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:id="@+id/fragmentConxtainer"/>
-
-
+        android:layout_height="wrap_content"
+        android:text="Calculate Area"
+        android:textSize="34sp"/>
 
 </LinearLayout>
